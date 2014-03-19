@@ -67,7 +67,7 @@ Configure your barcode scanner prefix and suffix. Chek the manufacturer's manual
 ## Author
 
 - Miguel Montes Porras - 2014
-- [http://mimopo.es]
+- http://mimopo.es
 - [Twitter @mimopoweb](https://twitter.com/mimopoweb)
 - [Github @mimopo](https://github.com/mimopo)
 
