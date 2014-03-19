@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Barcode Reader</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="jquery.mmp.barcodereader.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(this).mmpBarcodeReader();
+            $(this).bind('start.mmp.barcodereader', function(e){
+                console.log('start', e);
+            });
+            $(this).bind('end.mmp.barcodereader', function(e, st){
+                console.log('end', e, st);
+                $('body').append(st + '<br>');
+            });
+            $(this).bind('char.mmp.barcodereader', function(e, ch){
+                console.log('char', e, ch);
+            });
+        });
+    </script>
+</head>
+<body>
+    You will see the event logging in the console.
+</body>
+</html>
