@@ -1,6 +1,6 @@
 # Barcode Reader
-This jQuery plugin handles the output of an barcode scanner when a DOM element is focused.
-It will listen all keyboard inputs inside de DOM element and it will fire the following events:
+This jQuery plugin handles the barcode scanner output when a DOM element is focused.
+It will listen to all keyboard inputs inside de DOM element and it will fire the following events:
 
 
 ## Events
@@ -25,7 +25,7 @@ end.mmp.barcodereader
 
 ### Char
 #### Description:
-This event is fired on every single char readed by the barcode scanner.
+This event is fired on every single char read by the barcode scanner.
 #### Event:
 char.mmp.barcodereader
 #### Parameters:
@@ -42,7 +42,7 @@ $(document).mmpBarcodeReader();
 
 ## Example
 ```javascript
-// Listen all inputs inside the document element
+// Listen to all inputs inside the document element
 $(document).ready(function(){
     $(this).mmpBarcodeReader();
     $(this).bind('start.mmp.barcodereader', function(e){
