@@ -4,7 +4,7 @@
   "authors": [
     "Miguel Montes Porras <info@mimopo.es>"
   ],
-  "description": "This jQuery plugin handles the output of an barcode scanner when a DOM element is focused",
+  "description": "This jQuery plugin handles the barcode scanner output when a DOM element is focused",
   "main": "jquery.mmp.barcodereader.js",
   "keywords": [
     "barcode",
